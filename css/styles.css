@@ -1,0 +1,65 @@
+/* ==========================================================================
+   GOOGLE FONT IMPORT
+   ========================================================================== */
+/*Outfit*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* ==========================================================================
+   CSS VARIABLES & RESET
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*BODY FORMATTING*/
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ==========================================================================
+   QR APPLICATION FORMATTING
+   ========================================================================== */
+
+/*Format card container*/
+.card-container {
+  background-color: #fff;
+  padding: 15px;
+  margin: 20px;
+  max-width: 300px;
+  border-radius: 1em;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*Format card container img*/
+.card-container img {
+  width: 100%;
+  border-radius: 1em;
+  margin-bottom: 12px;
+}
+
+/*Format body text*/
+.card-container h1,
+.card-container p {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Format header and body text font weight*/
+.card-container h1 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-container p {
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
